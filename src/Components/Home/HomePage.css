@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  /* height: 100vh; */
+}
+.black {
+  background-color: black;
+}
+.img4 {
+  margin-bottom: 80px;
+}
+
+/* .title-homePage { */
+/* background: url("https://www.mercedes-benz.ru/content/russia/ru/passengercars/_jcr_content/root/responsivegrid/simple_stage_1564354.component.damq6.3284656097598.jpg/Maybach_2558x1066_1.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat; */

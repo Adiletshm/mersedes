@@ -1,0 +1,22 @@
+.logo {
+  position: relative;
+  width: 100%;
+}
+
+h2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+@media all and (max-width: 900px) {
+  .menu-item {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .logo {
+    display: none;
+  }
+}

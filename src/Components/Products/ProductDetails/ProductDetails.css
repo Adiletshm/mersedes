@@ -1,0 +1,24 @@
+.mySwiper .swiper-wrapper {
+  justify-content: center;
+}
+.mySwiper .swiper-slide {
+  margin: 40px 0;
+  cursor: pointer;
+}
+.mySwiper .swiper-slide.swiper-slide-thumb-active {
+  border-bottom: 5px solid black;
+}
+
+.mySwiper2 img {
+  width: 100%;
+}
+.mySwiper img {
+  width: 100%;
+}
+
+.css-1oxiy2p-MuiPaper-root-MuiAlert-root {
+  color: black !important;
+}
+.css-1vooibu-MuiSvgIcon-root {
+  display: none !important;
+}

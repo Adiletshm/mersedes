@@ -1,0 +1,35 @@
+.body {
+  background-image: url("https://look.com.ua/pic/201209/1920x1080/look.com.ua-1392.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+#form-add {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  color: white;
+}
+
+.outlined-basic {
+  height: 55px;
+}
+
+#add-title {
+  margin: 20px auto;
+  width: 35%;
+  font-size: 40px;
+  text-align: center;
+}
+@media all and(max-width: 1400px) {
+  .body {
+    display: flex;
+  }
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: rgb(51, 51, 48);
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: wheat !important;
+}

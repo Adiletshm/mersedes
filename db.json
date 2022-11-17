@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "category": "Автомобиль",
+      "title": "Mersedes-Benz Maybach",
+      "model": "Sclass",
+      "description": "Новый Mercedes-Maybach S-Класса – воплощение ультимативной роскоши. Превосходные материалы, высочайшее качество обработки деталей, непревзойденный комфорт, инновационные технологии и талантливый личный помощник – интеллектуальная информационно-развлекательная система MBUX – откроют для вас новую эру владения роскошным автомобилем класса люкс.",
+      "color": "Бордово-Золотой",
+      "price": 145000,
+      "img1": "https://st4.zr.ru/_ah/img/D-LXTb-xqL4B63k7uPO9RQ=s800",
+      "img2": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/gls/mercedes-maybach-x167/comfort/driving-highlights/_jcr_content/swipeableteaserbox/par/swipeableteaser_2058951283/asset.MQ6.12.20201012112629.jpeg",
+      "img3": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/gls/mercedes-maybach-x167/explore/highlights/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile_1292075343/image.MQ6.6.20201012112632.jpeg",
+      "id": 6
+    },
+    {
+      "model": "Cclass",
+      "category": "Автомобиль",
+      "title": "Mersedes-Benz",
+      "description": "Новый С-Класс создан для максимального погружения в уникальную атмосферу комфорта, спокойствия и абсолютной свободы, царящую в его салоне благодаря интеллектуальным системам безопасности и системе Mercedes-Benz User Experience (MBUX) последнего поколения с голосовым управлением и бескрайними возможностями для персонализации.",
+      "color": "Белый",
+      "price": 47500,
+      "img1": "https://mercedesblog.com/wp-content/uploads/2021/03/New-Mercedes-Benz-C-Class-3.jpg",
+      "img2": "https://www.mercedes-fans.de/thumbs/img/News/46/76/01/p/p_full/die-marketing-kampagne-der-neuen-mercedes-c-klasse-umparken-im-kopf-17646.jpg",
+      "img3": "https://img-ik.cars.co.za/news-site-za/images/2021/05/2022-Mercedes-Benz-C-Class-73.jpg",
+      "id": 7
+    },
+    {
+      "model": "AMG",
+      "category": "Автомобиль",
+      "title": "Mersedes-Benz",
+      "description": "Выдающийся атлет со множеством талантов. Потрясающий дизайн.  Информационно-развлекательная система понимает вас как хороший друг, с полуслова. Комфорт позволяет наслаждаться каждой секундой пути. Совершенный спутник, готовый справиться с ежедневными вызовами стильно, динамично и наиболее удобным для вас образом. ",
+      "color": "Cosmos Black Metallic",
+      "price": 87700,
+      "img1": "https://www.topgear.com/sites/default/files/2022/06/1-Mercedes-AMG-E-Class-Final-Edition.jpg",
+      "img2": "https://www.topgear.com/sites/default/files/2022/06/10-Mercedes-AMG-E-Class-Final-Edition.jpg",
+      "img3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/22c0210-010-1654007158.jpg",
+      "id": 8
+    },
+    {
+      "model": "AMG",
+      "category": "Автомобиль",
+      "title": "Mersedes-Benz",
+      "description": "Вы ведь всегда хотели больше свободы. В начале путешествия всегда должно быть вдохновение. Позвольте заворожить себя характерной аурой с типичными для AMG элементами дизайна и новыми фарами. Также интерьер с широкоформатным дисплем передней панели , новой мультимедийной системой и эксклюзивной цветовой концепцией ",
+      "color": " Ultramarinblau",
+      "price": 73250,
+      "img1": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/e-class/cabriolet-a238-fl/mercedes-amg-pad/highlights/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide/image.MQ6.0.20200527122903.jpeg",
+      "img2": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/e-class/cabriolet-a238-fl/mercedes-amg-pad/impressions/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile/image.MQ6.8.20200527122904.jpeg",
+      "img3": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/e-class/cabriolet-a238-fl/mercedes-amg-pad/impressions/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile_1180978225/image.MQ6.8.20200527122904.jpeg",
+      "id": 9
+    },
+    {
+      "model": "Eclass",
+      "category": "Автомобиль",
+      "title": "Mersedes-Benz",
+      "description": "Подчеркнуто динамичный характер С легкостью преодолевает любые трудности. Откройте для себя превосходные качества седана E-Класса. Динамичного, элегантного и роскошного как никогда.",
+      "color": "\t Sandgelb",
+      "price": 54950,
+      "img1": "https://cdn.carbuzz.com/gallery-images/2022-mercedes-benz-e-class-sedan-carbuzz-684413.jpg",
+      "img2": "https://bluesky-cogcms-prodb.cdn.imgeng.in/media/cmcifd4z/e-class-social_images_4_5_03.jpg?width=1200&height=800&mode=crop&scale=both",
+      "img3": "https://www.allcarz.ru/wp-content/uploads/2020/03/foto-e-class-2020_07.jpg",
+      "id": 10
+    },
+    {
+      "model": "Sclass",
+      "category": "Автомобиль",
+      "title": "Mersedes-Benz",
+      "description": "Новый S-Класс седан   Главное в новом седане S-Класса – уникальный комфорт и технологии безопасности, на которые вы всегда можете рассчитывать и как водитель, и как пассажир. Будь то роскошные материалы отделки или новаторская концепция управления мультимедийной системой",
+      "color": "Columbite Black Pearl",
+      "price": 111100,
+      "img1": "https://www.mercedes-benz.ru/passengercars/content-pool/marketing-pool/product-page-stages/s-class-saloon-wv223-stage/_jcr_content/par/stageelement_2008778078.MQ6.0.stage.20220415132816.jpeg",
+      "img2": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/s-class/saloon-wv223/explore/design-teaser/_jcr_content/par/teaserbox/teaserelement2/teaserelement/image.MQ6.6.20201027105622.jpeg",
+      "img3": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/s-class/saloon-wv223/explore/highlights/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile_817108654/image.MQ6.6.20201217114600.jpeg",
+      "id": 11
+    },
+    {
+      "model": "Gclass",
+      "category": "Автомобиль",
+      "title": "Mersedes-Benz",
+      "description": "Генетический код: G-Класс Много лет назад инженеры в Граце создали внедорожник с уникальным геномом. Характерный дизайн, технологическое совершенство и невероятная мощь стали той основой, которая и сегодня, 40 лет спустя, определяет внутреннюю сущность всех последующих поколений G-Класса.",
+      "color": "Tuerkisgruen",
+      "price": 131750,
+      "img1": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/g-class/suv-w463/explore/design-teaser/_jcr_content/par/teaserbox_a51c/teaserelement1/teaserelement_3e82/image.MQ6.6.20200702120411.jpeg",
+      "img2": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/g-class/suv-w463/design/exterior/_jcr_content/contentgallerycontainer/par/contentgallery_183a/par/contentgallerytile_2/image.MQ6.8.20200702120410.jpeg",
+      "img3": "https://www.mercedes-benz.ru/passengercars/mercedes-benz-cars/models/g-class/suv-w463/design/interior/_jcr_content/contentgallerycontainer/par/contentgallery_d20/par/contentgallerytile_5/image.MQ6.8.20200702120410.jpeg",
+      "id": 12
+    }
+  ],
+  "comment": [
+    {
+      "coment": "мерс топ",
+      "key": "8",
+      "user": "admin.admin@mail.ru",
+      "product": "id",
+      "id": 1
+    }
+  ]
+}
