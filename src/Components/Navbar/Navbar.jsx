@@ -112,7 +112,6 @@ function Navbar() {
             className="logo-icon">
             <img className="logo" src={Logo} />
           </Typography>
-
           <LiveSearch />
           <Box
             sx={{

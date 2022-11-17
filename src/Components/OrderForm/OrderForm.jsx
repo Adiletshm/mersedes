@@ -36,12 +36,14 @@ const OrderForm = ({ close }) => {
       {thanks ? (
         <div className="orderBack">
           <div className="thanks">
-            <button
-              onClick={() => close(false)}
-              className="closeModal"
-              style={{ display: "flex", alignItem: "center" }}>
-              X
-            </button>
+            <Link to="/list">
+              <button
+                onClick={() => close(false)}
+                className="closeModal"
+                style={{ display: "flex", alignItem: "center" }}>
+                X
+              </button>
+            </Link>
           </div>
           <h2 style={{ textAlign: "center" }}>
             Ожидайте, с вaми свяжуться в течение дня!

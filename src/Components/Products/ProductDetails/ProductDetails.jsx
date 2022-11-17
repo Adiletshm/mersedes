@@ -25,6 +25,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import { favoriteContext } from "../../../context/FavoriteContextProvider";
 import SendIcon from "@mui/icons-material/Send";
 import DeleteIcon from "@mui/icons-material/Delete";
+import OrderForm from "../../OrderForm/OrderForm";
 
 import { comentContext } from "../../../context/CommentContextProvider";
 import { grey } from "@mui/material/colors";
@@ -44,7 +45,7 @@ const ProductDetails = () => {
     useContext(comentContext);
 
   const { user } = useContext(authContext);
-
+  const [modalOpen, setModalOpen] = useState();
   const { id } = useParams();
 
   useEffect(() => {
@@ -78,6 +79,7 @@ const ProductDetails = () => {
 
   return (
     <>
+      {modalOpen ? <OrderForm close={setModalOpen} /> : null}
       {productDetails ? (
         <Container sx={{ marginTop: "40px" }}>
           <Grid container spacing={2}>
@@ -148,8 +150,9 @@ const ProductDetails = () => {
                   <AttachMoneyIcon />
                   <Button
                     variant="contained"
-                    sx={{ marginLeft: "20px", bgcolor: grey[900] }}>
-                    Заказать
+                    onClick={() => setModalOpen(true)}
+                    sx={{ margin: "20px auto", bgcolor: grey[900] }}>
+                    ОФОРМИТЬ ЗАКАЗ
                   </Button>
                   <Button
                     variant="contained"
@@ -176,10 +179,7 @@ const ProductDetails = () => {
                     onClick={() => deleteProduct(productDetails.id)}>
                     Удалить
                   </Button>
-                  {/* <Link
-                    to={`/edit/${productDetails.id}`}
-                    style={{ width: "50%" }}
-                  > */}
+
                   <Button
                     variant="contained"
                     sx={{ width: "48%", bgcolor: grey[900] }}
@@ -194,19 +194,6 @@ const ProductDetails = () => {
               <>
                 {comentArr.map(item => (
                   <div>
-                    {/* <div
-                style={{
-                  minWidth: "30px",
-                  height: "30px",
-                  backgroundColor: "lightgray",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  color: "black",
-                  marginRight: "3px",
-                }}>
-                {item.user}
-              </div> */}
                     <div
                       style={{
                         display: "flex",

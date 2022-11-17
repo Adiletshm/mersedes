@@ -54,7 +54,6 @@ const LiveSearch = () => {
 
   useEffect(() => {
     if (location.pathname === "/list") {
-      // todo   setSearchValue(""); доработать
       setParamsSearch({
         q: searchValue,
         price_gte: +paramsSearch.get("price_gte"),

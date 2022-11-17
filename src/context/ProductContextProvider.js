@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { createContext, useReducer } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+//!=============================
 // import {
 //   addDoc,
 //   collection,
@@ -12,6 +13,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 //   updateDoc,
 // } from "firebase/firestore";
 // import fire from "../fire";
+//!=============================
 
 export const productContext = createContext(); // облако
 
@@ -43,6 +45,8 @@ const ProductContextProvider = props => {
   const location = useLocation();
 
   const navigate = useNavigate();
+
+  // !===========================================
 
   // const db = getFirestore(fire); //API
 
@@ -109,6 +113,8 @@ const ProductContextProvider = props => {
   //     console.log(e);
   //   }
   // }
+
+  //!============================================
 
   // create
   async function addProduct(newProduct) {

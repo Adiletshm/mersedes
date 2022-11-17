@@ -85,13 +85,5 @@
       "id": 12
     }
   ],
-  "comment": [
-    {
-      "coment": "мерс топ",
-      "key": "8",
-      "user": "admin.admin@mail.ru",
-      "product": "id",
-      "id": 1
-    }
-  ]
+  "comment": []
 }

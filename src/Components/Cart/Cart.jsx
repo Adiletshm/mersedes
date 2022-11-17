@@ -62,7 +62,7 @@ const Cart = () => {
                   {productsInBasket.products.map(elem => (
                     <TableRow key={elem.item.id}>
                       <TableCell>
-                        <img src={elem.item.img1} alt="Sneakers" width={420} />
+                        <img src={elem.item.img1} alt="#" width={420} />
                       </TableCell>
                       <TableCell> {elem.item.price}</TableCell>
                       <TableCell>
